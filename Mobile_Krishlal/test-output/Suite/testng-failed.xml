@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Test_Case_Home.TC_ID_09_04">
+        <methods>
+          <include name="TC_ID_09_01"/>
+          <include name="Login2App"/>
+        </methods>
+      </class> <!-- Test_Case_Home.TC_ID_09_04 -->
+      <class name="Test_Case_Home.TC_ID_09_03">
+        <methods>
+          <include name="TC_ID_09_01"/>
+          <include name="Login2App"/>
+        </methods>
+      </class> <!-- Test_Case_Home.TC_ID_09_03 -->
+      <class name="Test_Case_Home.TC_ID_09_02">
+        <methods>
+          <include name="Login2App"/>
+          <include name="TC_ID_09_01"/>
+        </methods>
+      </class> <!-- Test_Case_Home.TC_ID_09_02 -->
+      <class name="Test_Case_Home.TC_ID_09_01">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test_Case_Home.TC_ID_09_01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
